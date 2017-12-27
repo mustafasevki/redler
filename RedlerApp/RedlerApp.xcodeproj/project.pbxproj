@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F65E5F2C1FF18594006B78A1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5F2B1FF18594006B78A1 /* WebViewController.swift */; };
+		F67D2F611FEEEA2C00DDB5B8 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2F601FEEEA2C00DDB5B8 /* NewsCell.swift */; };
+		F67D2F631FEEEBF900DDB5B8 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2F621FEEEBF900DDB5B8 /* Article.swift */; };
+		F67D2F671FEEF29200DDB5B8 /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D2F661FEEF29200DDB5B8 /* NewsPage.swift */; };
 		F6EBE1CE1FEAF6AD006A039C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EBE1CD1FEAF6AD006A039C /* AppDelegate.swift */; };
 		F6EBE1D01FEAF6AD006A039C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EBE1CF1FEAF6AD006A039C /* ViewController.swift */; };
 		F6EBE1D31FEAF6AD006A039C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EBE1D11FEAF6AD006A039C /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F65E5F2B1FF18594006B78A1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F67D2F601FEEEA2C00DDB5B8 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		F67D2F621FEEEBF900DDB5B8 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F67D2F661FEEF29200DDB5B8 /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
 		F6EBE1CA1FEAF6AD006A039C /* RedlerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedlerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EBE1CD1FEAF6AD006A039C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6EBE1CF1FEAF6AD006A039C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				F6EBE1D41FEAF6AD006A039C /* Assets.xcassets */,
 				F6EBE1D61FEAF6AD006A039C /* LaunchScreen.storyboard */,
 				F6EBE1D91FEAF6AD006A039C /* Info.plist */,
+				F67D2F601FEEEA2C00DDB5B8 /* NewsCell.swift */,
+				F67D2F621FEEEBF900DDB5B8 /* Article.swift */,
+				F67D2F661FEEF29200DDB5B8 /* NewsPage.swift */,
+				F65E5F2B1FF18594006B78A1 /* WebViewController.swift */,
 			);
 			path = RedlerApp;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67D2F671FEEF29200DDB5B8 /* NewsPage.swift in Sources */,
+				F65E5F2C1FF18594006B78A1 /* WebViewController.swift in Sources */,
+				F67D2F631FEEEBF900DDB5B8 /* Article.swift in Sources */,
 				F6EBE1D01FEAF6AD006A039C /* ViewController.swift in Sources */,
+				F67D2F611FEEEA2C00DDB5B8 /* NewsCell.swift in Sources */,
 				F6EBE1CE1FEAF6AD006A039C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

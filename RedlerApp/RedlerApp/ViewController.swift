@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-
     
     @IBOutlet weak var pickerView: UIPickerView!
     
@@ -46,6 +45,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
    /*func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         label.text = foods[row]
     }*/
+    
+    //tableView funcitons
     
     
 
